@@ -62,7 +62,7 @@ header nav ul li:hover {
 .header-content {
   color: #fff;
   font-weight: bold;
-  max-width: 400px;
+  max-width: 800px;
   margin: 150px auto;
   text-align: center;
   animation: ease text-move 2s forwards;
@@ -82,7 +82,7 @@ header nav ul li:hover {
 
 .header-content h1 {
   margin-bottom: 10px;
-  font-size: 4rem;
+  font-size: 3rem;
 } 
 
 @keyframes text-move{
@@ -101,6 +101,17 @@ button {
   background-color: rgb(248, 124, 7);
   color: #fff;
 }
+
+/*FOOTER*/
+.main_footer          { background-color:#353535; color:#fff; font-size:0.875em; }
+.main_footer .content { padding:3em 0em; }
+
+.main_footer_copy       { background-color:#262626; width:100%; float:left; text-align:center; padding:1.5em 0em; }
+.main_footer_copy p     { font-family:'open_sanslight'; font-size:1em; color:#e1e0e0; height:20px; }
+.main_footer_copy .m-b-footer   { margin-bottom:0.5em; }
+.main_footer_copy .by   { font-size:0.96em; }
+.main_footer_copy .by i { font-size:0.96em; margin-right:3px; color:#e82626; }
+
 
 /* PACOTES */
 
