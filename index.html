@@ -5,27 +5,6 @@
   height: 350px;
   background: no-repeat center/cover url('styles/GER_5559.jpg') ;
 } 
-
-.header-content {
-  color: #fff;
-  font-weight: bold;
-  max-width: 400px;
-  margin: 50px auto;
-  text-align: center;
-  animation: ease text-move 2s forwards;
-  text-shadow: black 0.2em 0.2em 0.2em;
-}
-
-/* .header-content-min {
-  color: #fff;
-  font-weight: bold;
-  max-width: 400px;
-  margin: 50px auto;
-  text-align: center;
-  animation: ease text-move 2s forwards;
-  text-shadow: black 0.2em 0.2em 0.2em;
-} */
- 
 </style>
 <html lang="pt-BR">
 <head>
@@ -41,18 +20,18 @@
     <header class="header">
       <div class="content">
         <img style="margin-top: 5px;" height="50px" width="50px" src="styles/off road para todos sem fundo.png">
-        <input class="mobile-btn" type="checkbox" id="mobile-btn" />
+        <input class="mobile-btn" type="checkbox" id="mobile-btn"/>
         <label class="mobile-icon" for="mobile-btn"><span class="hamburguer"></span></label>
         <ul class="nav">
           <li><a href="#home">Home</a></li>
           <li><a href="#pacotes">Aventuras</a></li>
+          <li><a href="cafecomoff.html">Café Com Off</a></li>
           <li><a href="#servicos">Serviços</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
       </div>
     </header>
   </div>
-
   <div class="fotoCapa">
     <section style="padding: 50px;">
       <div class="header-content">
@@ -61,23 +40,24 @@
       </div>
     </section>
   </div>
-
+<!-- Off Road Bate e Volta -->
   <section id="pacotes" class="pacotes">
-    <h1 class="pacotes-title">Conheça nossas aventuras</h1>
+    <h1 class="pacotes-title">Off Road(Bate e volta e Travessia de um dia)</h1>
     <div class="pacotes-cards">
+      <!-- Sabarabuçu 1 -->
         <div class="card">
           <a href="sabarabucu1.html">
           <div class="card-tag card-tag-top">
             <p>Nível: Intermediário</p>
           </div>
           <div class="card-tag card-tag-bottom">
-            <p>R$ 50,00</p>
-            <p>R$ 100,00 com camiseta </p>
+            <p>R$ 100,00</p>
+            <p>R$ 150,00 com camiseta </p>
           </div>
           <img class="card-image" src="Lugares/sabarabuçu2.png" alt="SerraAlves">
           <div class="card-content">
-             <h1>Sabarabuçu 1
-              <aside><i data-feather="calendar"></i>xx/xx/xx</aside>
+             <h1>Sabarabuçu 1(Honório Bicalho a Glaura)
+              <!-- <aside><i data-feather="calendar"></i>xx/xx/xx</aside> -->
              </h1>
             <ul>
               <li><i data-feather="coffee"></i>Famosa Coxinha de Glaura</li>
@@ -86,10 +66,11 @@
             </ul>
           </div>
         </a>
+        <div style="margin-top: 60px;"></div>
           <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
           type="button">Solicitar Vaga</button>
         </div>
-
+        <!-- Serra dos Alves -->
       <div class="card">
         <a href="SerraDosAlves.html">
         <div class="card-tag card-tag-top">
@@ -102,7 +83,7 @@
         <img class="card-image" src="Lugares/SerraAlves.jpg" alt="SerraAlves">
         <div class="card-content">
           <h1>Serra dos Alves
-            <aside><i data-feather="calendar"></i>xx/xx/xx</aside>
+            <!-- <aside><i data-feather="calendar"></i>xx/xx/xx</aside> -->
           </h1>
           <ul>
             <li><i data-feather="droplet"></i>Cachoeira</li>
@@ -113,40 +94,51 @@
           </ul>
         </div>
       </a>
+      <div style="margin-top: 75px;"></div>
         <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaSerraDosAlves'" 
           type="button">Solicitar Vaga</button>
       </div>
-      <div class="card">
-        <a href="MorroPilarIpoema.html">
-        <div class="card-tag card-tag-top">
-          <p>Nível: Difícil</p>
-        </div>
-        <div class="card-tag card-tag-bottom">
-          <p>R$ 140,00</p>
-          <p>R$ 190,00 com camiseta </p>
-        </div>
-        <img class="card-image" src="Lugares/MorroPillar-Ipoema.jpg" alt="MorroPilarIpoema">
-        <div class="card-content">
-          <h1>Travessia: Morro do Pilar a Ipoema
-            <aside><i data-feather="calendar"></i>xx/xx/xx</aside>
-          </h1>
-          <ul>
-            <!-- <li><i data-feather="coffee"></i>Almoço incluso</li> -->
-            <li><i data-feather="camera"></i>Fotos Profissionais</li>
-            <li><i data-feather="activity"></i>Emoção Garantida!!!</li>
-          </ul>
-        </div>
-      </a>
-        <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaMorroDoPillaraIpoema'" 
-        type="button">Solicitar Vaga</button>
-      </div>
+   <!-- Mirante do Gandarela -->
       <div class="card">
         <a href="PorDoSol.html">
         <div class="card-tag card-tag-top">
-          <p>Nível: Extremamente fácil</p>
+          <p>Nível: Fácil a intermediário</p>
         </div>
         <div class="card-tag card-tag-bottom">
-          <p>Free(Sem Fotografia)</p>
+          <p>R$ 70,00</p>
+          <p>R$ 130,00 com Camiseta</p>
+        </div>
+        <img class="card-image" src="https://cdn-bfmbn.nitrocdn.com/REzOHPZGJXTFrjpjSxvHQwxXjTENlOUC/assets/static/optimized/rev-6322e19/wp-content/uploads/2019/12/manutencao-preventiva-off-road-como-e-quando-trocar-as-pecas-da-moto-de-trilha.jpg" alt="porDoSol">
+        <div class="card-content">
+           <h1>Mirante do Gandarela
+            <!-- <aside><i data-feather="calendar"></i>xx/xx/xx</aside> -->
+           </h1>
+          <ul>
+            <li><i data-feather="camera"></i>Fotos Profissionais</li>
+          </ul>
+        </div>
+      </a>
+      <div style="margin-top: 120px;"></div>
+        <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
+        type="button">Solicitar Vaga</button>
+      </div>
+    </div>
+    <div style="margin-bottom: 10px;"></div>
+  </section>
+
+  <hr>
+<!-- Apreciação e fotografia -->
+  <section id="pacotes2" class="pacotes">
+    <h1 class="pacotes-title">Apreciação e Fotografia</h1>
+    <div class="pacotes-cards">
+      <div class="card">
+        <a href="PorDoSol.html">
+        <div class="card-tag card-tag-top">
+          <p>Nível: Fácil</p>
+          <p>100% Asfalto</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 40,00 sem Fotografia</p>
           <p>R$ 150,00 com Fotografia</p>
         </div>
         <img class="card-image" src="PorDoSol/GER_5471.jpg" alt="porDoSol">
@@ -157,26 +149,67 @@
           <ul>
             <li><i data-feather="camera"></i>Lindo Por do Sol</li>
             <li><i data-feather="camera"></i>Fotos Profissionais(Opcional)</li>
-            <li><i data-feather="camera"></i>Impressão de Albúm(Opcional)</li>
+            <li><i data-feather="coffee"></i>Café ou Chá feito na hora</li>
           </ul>
         </div>
       </a>
+      <div style="margin-top: 50px;"></div>
         <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
         type="button">Solicitar Vaga</button>
       </div>
+    </div>
+    <div style="margin-bottom: 10px;"></div>
+  </section>
+<hr>
+    <!-- Off Road Difícil-->
+    <section id="pacotes3" class="pacotes">
+      <h1 class="pacotes-title">Desafios Off Road</h1>
+      <div class="pacotes-cards">
+        <div class="card">
+          <a href="MorroPilarIpoema.html">
+          <div class="card-tag card-tag-top">
+            <p>Nível: Difícil</p>
+          </div>
+          <div class="card-tag card-tag-bottom">
+            <p>R$ 140,00</p>
+            <p>R$ 190,00 com camiseta </p>
+          </div>
+          <img class="card-image" src="Lugares/MorroPillar-Ipoema.jpg" alt="MorroPilarIpoema">
+          <div class="card-content">
+            <h1>Travessia: Morro do Pilar a Ipoema
+              <!-- <aside><i data-feather="calendar"></i>xx/xx/xx</aside> -->
+            </h1>
+            <ul>
+              <!-- <li><i data-feather="coffee"></i>Almoço incluso</li> -->
+              <li><i data-feather="camera"></i>Fotos Profissionais</li>
+              <li><i data-feather="activity"></i>Emoção Garantida!!!</li>
+            </ul>
+          </div>
+        </a>
+        <div style="margin-top: 55px;"></div>
+          <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaMorroDoPillaraIpoema'" 
+          type="button">Solicitar Vaga</button>
+        </div>
+      </div>
+      <div style="margin-bottom: 10px;"></div>
+    </section>
+<hr>
+  <!-- Off Road Com Bate e Fica e/o Final de semana todo -->
+  <section id="pacotes3" class="pacotes">
+    <h1 class="pacotes-title">Off Road Com Bate e Fica e/o Final de semana todo</h1>
+    <div class="pacotes-cards">
       <div class="card">
         <a href="PorDoSol.html">
         <div class="card-tag card-tag-top">
-          <p>Nível: Intermediário</p>
+          <p>Nível: Fácil</p>
         </div>
         <div class="card-tag card-tag-bottom">
-          <p>Free(Sem Fotografia)</p>
-          <p>R$ 150,00 com Fotografia</p>
+          <p>Valor a Definir</p>
         </div>
         <img class="card-image" src="PorDoSol/GER_5471.jpg" alt="porDoSol">
         <div class="card-content">
-           <h1>Mirante do Gandarela
-            <aside><i data-feather="calendar"></i>xx/xx/xx</aside>
+           <h1>Por do Sol no Rola Moça
+            <!-- <aside><i data-feather="calendar"></i>xx/xx/xx</aside> -->
            </h1>
           <ul>
             <li><i data-feather="camera"></i>Lindo Por do Sol</li>
@@ -185,11 +218,15 @@
           </ul>
         </div>
       </a>
+      <div style="margin-top: 55px;"></div>
         <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
         type="button">Solicitar Vaga</button>
       </div>
     </div>
+    <div style="margin-bottom: 10px;"></div>
   </section>
+<hr>
+    <!-- Serviços -->
   <section id="servicos" class="servicos">
     <h1 class="servicos-title">Serviços</h1>
     <div class="servicos-cards">
