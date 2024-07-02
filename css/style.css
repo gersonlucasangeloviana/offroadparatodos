@@ -1,5 +1,12 @@
 .content { float:left; width:92%; margin:0 4%; padding: 20px 0; }
 
+.content-header { 
+	float:left; 
+	width:92%; 
+	margin:0 4%;  
+   
+  }
+
 /*BTN*/
 .btn-download       { background-color:#ee2727; color:#fff; border-radius: 50px; font-family: 'open_sansregular'; padding: 0.5em 0.8em; display:block; float: none; text-decoration: none; margin: auto; width:100%; font-size: 1.5em; text-align: center; line-height: 40px; }
 .btn-download:hover { background-color:#d00f0f; color:#fff; }
@@ -13,6 +20,22 @@
 .main_header_logo img { height:69px; }
 
 
+.root {
+	display: flex;
+	flex-direction: column;
+	background: #212124;
+  }
+  .header {
+	background-color: #212124;
+	box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+	position: fixed;
+	top:0;
+	left:0;  
+	width: 100%;
+	z-index:1;
+	float:left; 
+	color:#fff; 
+  }
 /*Seu Código*/
 .section-seu-codigo          { padding:10px 0px; background-color:#f4f4f4; }
 .section-seu-codigo .content { float:left; padding:1em 0; }

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <style>
-  header {
-  height: 250px;
-  background: no-repeat center/cover url('PorDoSol/GER_5459.jpg') ;
+.fotoCapa {
+    height: 250px;
+    background: no-repeat center/cover url('PorDoSol/GER_5459.jpg') ;
 }
 </style>
 <html lang="pt-BR">
@@ -14,36 +14,36 @@
   <script src="https://unpkg.com/feather-icons"></script>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/fonts-icones.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/fonts-icones.css">
 </head>
 
 <body>
-  <header>
-    <!-- <img src="assets/bgh.jpg" alt="header-img"> -->
-    <nav>
-        <ul style="margin-top: 10px;">
-        <li><a href="index.html">Home</a></li>
-      </ul>
-    </nav>
+<div class="root">
+    <header class="header">
+      <div class="content-header">
+        <img style="margin-top: 5px;" height="50px" width="50px" src="styles/off road para todos sem fundo.png">
+        <input class="mobile-btn" type="checkbox" id="mobile-btn"/>
+        <label class="mobile-icon" for="mobile-btn"><span class="hamburguer"></span></label>
+        <ul class="nav">
+          <li><a href="index.html">Início</a></li>
+        </ul>
+      </div>
+    </header>
+  </div>
+  <div class="fotoCapa">
+    <section style="padding: 50px;">
+      <div class="header-content">
+        <h1>Por Do Sol Na Serra do Rola Moça</h1>
+      </div>
+    </section>
+  </div>
 
-    <div  id="home" class="header-content-min">
-      <h1>Por Do Sol na Serra Do Rola Moça</h1>
-    </div>
-  </header>
-
-  
-<main class="main_content container">
-
-        
-  <section class="section-seu-codigo container">
-      
+<main>
+  <section>
       <div class="content">
-          
           <h1 class="section_title"><i class="icon icon-photo"></i> Galeria de Fotos</h1>
-          
           <div class="box-galeria">
-                  
               <div class="box-foto">
                   <a href="PorDoSol/GER_5459.jpg" rel="shadowbox[vocation]" title="Foto 1">
                       <img src="PorDoSol/GER_5459.jpg">
