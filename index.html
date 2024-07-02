@@ -16,6 +16,7 @@
   <link rel="stylesheet" type="text/css" href="css/fonts-icones.css">
 </head>
 <body>
+  <!-- Header -->
   <div class="root">
     <header class="header">
       <div class="content">
@@ -32,6 +33,7 @@
       </div>
     </header>
   </div>
+   <!-- Foto de Capa -->
   <div class="fotoCapa">
     <section style="padding: 50px;">
       <div class="header-content">
@@ -54,11 +56,9 @@
             <p>R$ 100,00</p>
             <p>R$ 150,00 com camiseta </p>
           </div>
-          <img class="card-image" src="Lugares/sabarabuçu2.png" alt="SerraAlves">
+          <img class="card-image" src="Lugares/sabarabuçu2.png" alt="sabarabucu1">
           <div class="card-content">
-             <h1>Sabarabuçu 1(Honório Bicalho a Glaura)
-              <!-- <aside><i data-feather="calendar"></i>xx/xx/xx</aside> -->
-             </h1>
+             <h1>Sabarabuçu 1(Honório Bicalho até Glaura)</h1>
             <ul>
               <li><i data-feather="coffee"></i>Famosa Coxinha de Glaura</li>
               <li><i data-feather="camera"></i>Fotos Profissionais</li>
@@ -67,8 +67,8 @@
           </div>
         </a>
         <div style="margin-top: 60px;"></div>
-          <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
-          type="button">Solicitar Vaga</button>
+          <button onclick="enviarWhatsApp('Quero Vaga Para Sabarabuçu 1')" 
+          type="button">Solicitar Vaga Sabarabuçu</button>
         </div>
         <!-- Serra dos Alves -->
       <div class="card">
@@ -82,9 +82,7 @@
         </div>
         <img class="card-image" src="Lugares/SerraAlves.jpg" alt="SerraAlves">
         <div class="card-content">
-          <h1>Serra dos Alves
-            <!-- <aside><i data-feather="calendar"></i>xx/xx/xx</aside> -->
-          </h1>
+          <h1>Serra dos Alves com Morro Redondo</h1>
           <ul>
             <li><i data-feather="droplet"></i>Cachoeira</li>
             <li><i data-feather="camera"></i>Fotos Profissionais</li>
@@ -94,13 +92,13 @@
           </ul>
         </div>
       </a>
-      <div style="margin-top: 75px;"></div>
-        <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaSerraDosAlves'" 
-          type="button">Solicitar Vaga</button>
+      <div style="margin-top: 60px;"></div>
+        <button onclick="enviarWhatsApp('Quero Vaga Para Serra dos Alves')"
+          type="button">Solicitar Vaga Serra dos Alves</button>
       </div>
-   <!-- Mirante do Gandarela -->
+    <!-- Mirante do Gandarela -->
       <div class="card">
-        <a href="PorDoSol.html">
+        <a href="mirantegandarela.html">
         <div class="card-tag card-tag-top">
           <p>Nível: Fácil a intermediário</p>
         </div>
@@ -108,20 +106,44 @@
           <p>R$ 70,00</p>
           <p>R$ 130,00 com Camiseta</p>
         </div>
-        <img class="card-image" src="https://cdn-bfmbn.nitrocdn.com/REzOHPZGJXTFrjpjSxvHQwxXjTENlOUC/assets/static/optimized/rev-6322e19/wp-content/uploads/2019/12/manutencao-preventiva-off-road-como-e-quando-trocar-as-pecas-da-moto-de-trilha.jpg" alt="porDoSol">
+        <img class="card-image" src="Lugares/mirantegandarela.jpg" alt="MiranteGandarela">
         <div class="card-content">
-           <h1>Mirante do Gandarela
-            <!-- <aside><i data-feather="calendar"></i>xx/xx/xx</aside> -->
-           </h1>
+           <h1>Mirante do Gandarela</h1>
           <ul>
             <li><i data-feather="camera"></i>Fotos Profissionais</li>
+            <li><i data-feather="camera"></i>Rota e parada em Macacos(opcional)</li>
           </ul>
         </div>
       </a>
-      <div style="margin-top: 120px;"></div>
-        <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
-        type="button">Solicitar Vaga</button>
+      <div style="margin-top: 100px;"></div>
+        <button onclick="enviarWhatsApp('Quero Vaga Para Mirante do Gandarela')" 
+        type="button">Solicitar Vaga Gandarela</button>
       </div>
+    <!-- Travessia  Rio Acima até Cocais-->
+              <div class="card">
+                <a href="travessiacocais.html">
+                <div class="card-tag card-tag-top">
+                  <p>Nível: Intermediário</p>
+                </div>
+                <div class="card-tag card-tag-bottom">
+                  <p>R$ 120,00</p>
+                  <p>R$ 180,00 com camiseta</p>
+                </div>
+                <img class="card-image" src="Lugares/travessiaCocais.jpg" alt="TravessiaCocais">
+                <div class="card-content">
+                  <h1>Travessia: Rio Acima até Cocais, com Catas Altas</h1>
+                  <ul>
+                    <li><i data-feather="droplet"></i>Travessia de Rio</li>
+                    <li><i data-feather="camera"></i>Fotos Profissionais</li>
+                    <li><i data-feather="camera"></i>Parada no Mirante do Gandarela</li>
+                    <li><i data-feather="activity"></i>Trecho da Estrada Real</li>
+                  </ul>
+                </div>
+              </a>
+              <div style="margin-top: 40px;"></div>
+                <button onclick="enviarWhatsApp('Quero Vaga Para Travessia Rio Acima para Cocais')" 
+                  type="button">Solicitar Vaga Travessia</button>
+              </div>
     </div>
     <div style="margin-bottom: 10px;"></div>
   </section>
@@ -143,9 +165,7 @@
         </div>
         <img class="card-image" src="PorDoSol/GER_5471.jpg" alt="porDoSol">
         <div class="card-content">
-           <h1>Por do Sol no Rola Moça
-            <aside><i data-feather="calendar"></i>xx/xx/xx</aside>
-           </h1>
+           <h1>Por do Sol no Rola Moça</h1>
           <ul>
             <li><i data-feather="camera"></i>Lindo Por do Sol</li>
             <li><i data-feather="camera"></i>Fotos Profissionais(Opcional)</li>
@@ -153,13 +173,69 @@
           </ul>
         </div>
       </a>
-      <div style="margin-top: 50px;"></div>
-        <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
-        type="button">Solicitar Vaga</button>
+      <div style="margin-top: 75px;"></div>
+        <button onclick="enviarWhatsApp('Quero Vaga Para Por Do Sol no Rola Moça')" 
+        type="button">Solicitar Vaga Por Do Sol</button>
       </div>
     </div>
     <div style="margin-bottom: 10px;"></div>
   </section>
+<hr>
+<!-- Treino de técnicas Off Road -->
+<section id="pacotes4" class="pacotes">
+  <h1 class="pacotes-title">Treinos Off Road</h1>
+  <div class="pacotes-cards">
+     <!-- Serra do Gandarela -->
+    <div class="card">
+      <a href="PorDoSol.html">
+      <div class="card-tag card-tag-top">
+        <p>Nível: Fácil a intermediário</p>
+      </div>
+      <div class="card-tag card-tag-bottom">
+        <p>R$ 120,00</p>
+      </div>
+      <img class="card-image" src="https://enfoquevisual.com.br/cdn/shop/products/104-023.jpg?v=1571921879" alt="porDoSol">
+      <div class="card-content">
+         <h1>Treino na Serra do Gandarela</h1>
+        <ul>
+          <li><i data-feather="clock"></i>Duração: Manhã toda</li>
+          <li><i data-feather="camera"></i>Fotos Profissionais</li>
+          <li><i data-feather="award"></i>Você escolhe o que precisa treinar</li>
+          <li><i data-feather="coffee"></i>Café ou Chá feito na hora</li>
+        </ul>
+      </div>
+    </a>
+    <div style="margin-top: 50px;"></div>
+      <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
+      type="button">Solicitar Vaga</button>
+    </div>
+         <!-- Trilhas da Serra -->
+         <div class="card">
+          <a href="PorDoSol.html">
+          <div class="card-tag card-tag-top">
+            <p>Nível: Fácil a intermediário</p>
+          </div>
+          <div class="card-tag card-tag-bottom">
+            <p>R$ 180,00</p>
+          </div>
+          <img class="card-image" src="https://enfoquevisual.com.br/cdn/shop/products/104-023.jpg?v=1571921879" alt="porDoSol">
+          <div class="card-content">
+             <h1>Treino no espaço do Trilhas da Serra</h1>
+            <ul>
+              <li><i data-feather="clock"></i>Duração: Manhã toda</li>
+              <li><i data-feather="camera"></i>Fotos Profissionais</li>
+              <li><i data-feather="award"></i>Você escolhe o que precisa treinar</li>
+              <li><i data-feather="coffee"></i>Café ou Chá feito na hora</li>
+            </ul>
+          </div>
+        </a>
+        <div style="margin-top: 50px;"></div>
+          <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
+          type="button">Solicitar Vaga</button>
+        </div>
+  </div>
+  <div style="margin-bottom: 10px;"></div>
+</section>
 <hr>
     <!-- Off Road Difícil-->
     <section id="pacotes3" class="pacotes">
@@ -195,34 +271,120 @@
     </section>
 <hr>
   <!-- Off Road Com Bate e Fica e/o Final de semana todo -->
-  <section id="pacotes3" class="pacotes">
+  <section id="pacotes5" class="pacotes">
     <h1 class="pacotes-title">Off Road Com Bate e Fica e/o Final de semana todo</h1>
     <div class="pacotes-cards">
+<!-- Caminho da fé -->
       <div class="card">
-        <a href="PorDoSol.html">
+        <a href="xxx">
         <div class="card-tag card-tag-top">
-          <p>Nível: Fácil</p>
+          <p>Nível: Intermediário</p>
         </div>
         <div class="card-tag card-tag-bottom">
-          <p>Valor a Definir</p>
+          <p>Valor a Definir(Roteiro em estudo)</p>
         </div>
-        <img class="card-image" src="PorDoSol/GER_5471.jpg" alt="porDoSol">
+        <img class="card-image" src="https://enfoquevisual.com.br/cdn/shop/products/104-023.jpg?v=1571921879" alt="porDoSol">
         <div class="card-content">
-           <h1>Por do Sol no Rola Moça
-            <!-- <aside><i data-feather="calendar"></i>xx/xx/xx</aside> -->
-           </h1>
+           <h1>Caminho da Fé</h1>
           <ul>
-            <li><i data-feather="camera"></i>Lindo Por do Sol</li>
-            <li><i data-feather="camera"></i>Fotos Profissionais(Opcional)</li>
-            <li><i data-feather="camera"></i>Impressão de Albúm(Opcional)</li>
+            <li><i data-feather="camera"></i>Fotos Profissionais</li>
+            <li><i data-feather="activity"></i>Pequenos desafios durante o percurso!</li>
           </ul>
         </div>
       </a>
-      <div style="margin-top: 55px;"></div>
+      <div style="margin-top: 100px;"></div>
         <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
         type="button">Solicitar Vaga</button>
       </div>
+      <!-- Canastra Parte Alta -->
+      <div class="card">
+        <a href="xxx">
+        <div class="card-tag card-tag-top">
+          <p>Nível: Intermediário</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>Valor a Definir(Roteiro em estudo)</p>
+        </div>
+        <img class="card-image" src="https://enfoquevisual.com.br/cdn/shop/products/104-023.jpg?v=1571921879" alt="porDoSol">
+        <div class="card-content">
+           <h1>Canastra Parte Alta</h1>
+          <ul>
+            <li><i data-feather="camera"></i>Fotos Profissionais</li>
+            <li><i data-feather="activity"></i>Pequenos desafios durante o percurso!</li>
+          </ul>
+        </div>
+      </a>
+      <div style="margin-top: 100px;"></div>
+        <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
+        type="button">Solicitar Vaga</button>
+      </div>
+      <!-- Aiuruoca -->
+      <div class="card" hidden>
+        <a href="xxx">
+        <div class="card-tag card-tag-top">
+          <p>Nível: Intermediário</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>Valor a Definir(Roteiro em estudo)</p>
+        </div>
+        <img class="card-image" src="https://enfoquevisual.com.br/cdn/shop/products/104-023.jpg?v=1571921879" alt="porDoSol">
+        <div class="card-content">
+           <h1>Aiuruoca</h1>
+          <ul>
+            <li><i data-feather="camera"></i>Fotos Profissionais</li>
+            <li><i data-feather="activity"></i>Pequenos desafios durante o percurso!</li>
+          </ul>
+        </div>
+      </a>
+      <div style="margin-top: 100px;"></div>
+        <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
+        type="button">Solicitar Vaga</button>
+      </div>
+      <!-- Luminárias -->
+      <div class="card" hidden>
+        <a href="xxx">
+        <div class="card-tag card-tag-top">
+          <p>Nível: Intermediário</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>Valor a Definir(Roteiro em estudo)</p>
+        </div>
+        <img class="card-image" src="https://enfoquevisual.com.br/cdn/shop/products/104-023.jpg?v=1571921879" alt="porDoSol">
+        <div class="card-content">
+           <h1>Luminárias</h1>
+          <ul>
+            <li><i data-feather="camera"></i>Fotos Profissionais</li>
+            <li><i data-feather="activity"></i>Pequenos desafios durante o percurso!</li>
+          </ul>
+        </div>
+      </a>
+      <div style="margin-top: 100px;"></div>
+        <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
+        type="button">Solicitar Vaga</button>
+      </div>
+    <!-- Carrancas -->
+    <div class="card" hidden>
+      <a href="xxx">
+      <div class="card-tag card-tag-top">
+        <p>Nível: Intermediário</p>
+      </div>
+      <div class="card-tag card-tag-bottom">
+        <p>Valor a Definir(Roteiro em estudo)</p>
+      </div>
+      <img class="card-image" src="https://enfoquevisual.com.br/cdn/shop/products/104-023.jpg?v=1571921879" alt="porDoSol">
+      <div class="card-content">
+         <h1>Carrancas</h1>
+        <ul>
+          <li><i data-feather="camera"></i>Fotos Profissionais</li>
+          <li><i data-feather="activity"></i>Pequenos desafios durante o percurso!</li>
+        </ul>
+      </div>
+    </a>
+    <div style="margin-top: 100px;"></div>
+      <button onclick="location.href='https://api.whatsapp.com/send?phone=5511954451669&text=QueroVagaParaBaracabuçu1'" 
+      type="button">Solicitar Vaga</button>
     </div>
+  </div>
     <div style="margin-bottom: 10px;"></div>
   </section>
 <hr>
@@ -272,6 +434,11 @@
 
 
   <script>
+function enviarWhatsApp(texto){
+  location.href='https://api.whatsapp.com/send?phone=5511954451669&text=' + texto
+}
+
+
     // feather icons
     feather.replace();
 
