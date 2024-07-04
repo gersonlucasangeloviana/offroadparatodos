@@ -21,3 +21,9 @@ $(function () {
 
 
 });
+
+                      $(function(){ 
+                                $("#header").load("headerindex.html");
+                                $("#footer").load("footer.html"); 
+                       });
+                
