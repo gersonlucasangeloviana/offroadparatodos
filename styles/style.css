@@ -6,13 +6,13 @@
 }
 
 .header-content {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
   max-width: 400px;
   margin: 50px auto;
   text-align: center;
   animation: ease text-move 2s forwards;
-  text-shadow: black 0.2em 0.2em 0.2em;
+  text-shadow: rgb(0, 0, 0) 0.2em 0.2em 0.2em;
 }
 
 body {
@@ -55,6 +55,7 @@ a {
   flex-direction: column;
   background: #212124;
 }
+
 .header {
   background-color: #212124;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -134,7 +135,7 @@ a {
   display: none;
 }
 .header .mobile-btn:checked ~ .nav {
-  max-height: 240px;
+  max-height: 300px;
 }
 .header .mobile-btn:checked ~ .mobile-icon .hamburguer {
   background: transparent;
